@@ -1,0 +1,87 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+h1{
+    text-align: center;
+    font-size: 30px;
+    padding-left: 50px;
+    color:darkgreen;
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.amount{
+    padding-left: 695px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title{
+    padding-left: 140px;
+    padding-right: 120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-style: hidden;
+    border-radius: 5px;
+    margin-left: 500px;
+    margin-right: 450px;
+    border-bottom: none;
+    background-color: rgb(232, 229, 229);
+}
+.ref-num h4{
+    padding-left: 50px;
+}
+.ref-num p{
+    translate: 300px -38px;
+}
+.time h4{
+    padding-left: 50px;
+}
+.time p{
+    translate: 220px -38px;
+}
+.method h4{
+    padding-left: 50px;
+}
+.method p{
+    translate: 380px -38px;
+}
+.payer h4{
+    padding-left: 50px;
+}
+.payer p{
+    translate: 330px -38px;
+}
+.amount2 h4{
+    padding-left: 50px;
+}
+.amount2 p{
+    translate: 380px -38px;
+}
+.status h4{
+    padding-left: 50px;
+}
+.status p{
+    translate: 320px -38px;
+    border-style: solid;
+    border-color:rgb(156, 177, 121);
+    background-color:rgb(203, 233, 203);
+    color:darkgreen
+    ;
+    margin-right: 360px;
+    border-radius: 12px;
+    padding-left: 16px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.invoice-body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style:groove;
+    border-color:rgb(232, 229, 229);
+    margin-left: 500px;
+    margin-right: 450px;
+    box-shadow: 10px 10px 5px lightgrey;
+    border-top: none;
+}
+h4{
+    color: grey;
+}
+p{
+    font-weight: 600;
+}

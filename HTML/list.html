@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            body{
+                background-color:cadetblue;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                position: relative;
+                width: 100%;
+                min-height: 100vh;
+                box-sizing: border-box;
+            }
+            form{
+                margin-top: 20px;
+                box-sizing: border-box;
+                border: 1px solid grey;
+                border-radius: 8px;
+                width: 30%;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 15px 8px;
+                background-color: whitesmoke;
+            }
+            #username{
+                padding: 8px 8px;
+                width: 80%;
+            }
+            #password{
+                padding: 8px 8px;
+                width: 80%;
+                margin-top: 15px;
+            }
+            #button{
+                padding: 8px 8px;
+                width: 85%;
+                margin-top: 15px;
+                
+            }
+            #user-text{
+                color: red;
+                text-align: left;
+                margin-left: 30px;
+                font-size: 15px;
+                display: none;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+            <form id="form">
+                <input id="username" type="text" name="text" placeholder="Username" required><br>
+                <p id="user-text">*Please enter a valid username</p>
+                <input id="password" type="text" name="password" placeholder="Password" required><br>
+                <button id="button" value="login">Submit</button>
+            </form>
+        </header>
+    <script src= "/javascript/test.js"  async defer></script>
+    </body>
+</html>

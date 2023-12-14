@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    padding: 15px;
+    flex-direction: row;
+    margin-right: 15px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.nav-item{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: rgb(26, 26, 26);
+    text-decoration: none;
+    margin-right: 15px;
+    position: relative;
+    top: 7px;
+}
+.nav-item:hover{
+    text-decoration: underline;
+}
+#google-logo{
+    width: 25%;
+    
+}
+section{
+    text-align: center;
+    padding-top: 6%;
+}
+.text-box{
+    border: none;
+    display: inline-block;
+}
+#search{
+    width: 500px;
+    border: 1px solid rgb(216, 216, 216) ;
+    border-radius: 24px;
+    padding: 10px;
+    position: relative;
+    outline: none;
+}
+#mic{
+    width: 32px;
+    position: absolute;
+    top: 397px;
+    right: 470px;
+}
+#search:hover{
+    box-shadow: 0 1px 2px 0 rgb(188, 188, 188);
+    border-color: rgb(186, 185, 185);
+}
+#search:focus{
+    box-shadow: 0 1px 2px 0 rgb(188, 188, 188);
+    border-color: rgb(186, 185, 185);
+}
+.buttons{
+    margin-top: 20px;;
+}
+.button{
+    padding: 10px;
+    margin-right: 5px;
+    background-color: rgb(244, 242, 242);
+    border: none;
+    border-radius: 5px;
+    color: grey;
+}
+.button:hover{
+    border: 1px solid rgb(146, 145, 145);
+    box-shadow: 0 1px 1px rgba(183, 182, 182, 0.1);
+
+}
+#app-dropdown{
+    width: 22%;
+    height: 27%;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgb(154, 153, 153);
+    margin-left: 5%;
+    padding: 15px;
+    position: absolute;
+    right: 90px;
+    top: 50px;
+    display: none;
+}
+
+#drop-items{
+    display: inline-block;
+    width: 95px;
+    padding: 6px 2px;
+    text-align: center;
+}
+#drop-items > img{
+    width: 40px;
+    
+}
+#drop-items > p{
+    font-family: Arial, sans-serif;
+    color: rgb(106, 106, 106);
+    margin: 0;
+    padding: 12px;
+}
+#drop-items:hover{
+    border: 1px solid rgb(147, 146, 146);
+    border-radius: 5px;
+}
+#dropdown-wrapper{
+    display: inline-block;
+}
+#dropdown-wrapper:hover
+#app-dropdown{
+    display: inline-block;
+}
