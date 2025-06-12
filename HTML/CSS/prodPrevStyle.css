@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 12px;
+    background-color: rgb(120, 120, 120);
+    box-shadow: 0 10px 10px -5px grey;
+}
+main {
+    margin-top: 130px;
+}
+#title {
+    margin: 15px 0 15px 40px;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#nav-links {
+    margin: 20px 20px 20px 800px;
+}
+#nav-links a {
+    text-decoration: none;
+    padding: 8px 18px;
+    color: black;
+    font-family: Verdana;
+}
+#nav-links a:hover {
+    color: white;
+    border-bottom: 2px solid white;
+}
+#image img {
+    width: 500px;
+    height: 500px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 10px 10px -5px;
+}
+#image {
+    margin: 0 0 0 80px;
+    border: none;
+    border-radius: 8px;
+    /*box-shadow: 0 10px 10px -5px;*/
+}
+.image-des {
+    display: flex;
+    flex-direction: row;
+    margin: 40px auto;
+}
+#description {
+    margin: 0 60px;
+}
+#description h3 {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+#description p {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+#description h4 {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-size: 20px;
+}
+hr {
+    border-top: 2px solid #bbb;
+    border-radius: 8px;
+    width: 500px;
+}
+#description ul {
+    font-size: 18px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+}
+#description ul li {
+    line-height: 1.8;
+    list-style: circle;
+}
+.testimonials {
+    margin: 20px 80px;
+    border: hidden;
+    background-color: rgb(300, 300, 0);
+    padding: 10px 10px 30px 10px;
+    border-radius: 8px;
+}
+.testimonials h4 {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 50px;
+}
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container {
+    border: hidden;
+    background-color: white;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 10px 10px 8px -2px;
+    width: 300px;
+}
+.container h5 {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.container p {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+}
+.action-btns button {
+    padding: 12px 30px;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}
+.action-btns button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
